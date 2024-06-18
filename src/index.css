@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.cls-1{
+    fill:none;
+    stroke:#020202;
+    stroke-miterlimit:10;
+    stroke-width:1.91px;
+}
+.self-end{
+    cursor: pointer;
+}
+.clicked{
+    border: 1px solid #ff4500;
+}
+.clicked img{
+    opacity: 0.3;
+}
+.arrow{
+    cursor: pointer;
+}
